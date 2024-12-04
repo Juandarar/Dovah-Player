@@ -1,0 +1,171 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    box-sizing: border-box;
+    color: #f2f2f2;
+
+}
+
+body{
+    background-color: #06030D;
+    
+}
+span{
+    font-size: 17px;
+}
+
+hr {
+    border: solid 1px #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+    background-color: #2C4373;
+}
+.header-nav__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.header-nav__logo__title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.header-nav__list{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    list-style: none;
+}
+.header-nav__button{
+    padding: 20px 50px;
+    background-color: #010626;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 30px 60px;
+  
+
+}
+.main__reproductor{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.reproductor__img{
+    width: 425px;
+    height: 425px;
+    border-radius: 100%;
+}
+.main__reproductor__title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.main__list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45px;
+    column-gap: 25px;
+}
+.canciones{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+    padding: 20px 25px;
+    background-color: #010B40;
+}
+.canciones__img{
+   width: 235px;
+   height: 150px;
+}
+.canciones__body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.canciones__body__title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.canciones__body__autor{
+    font-size: 17px;
+    opacity: 50%;
+}
+.canciones__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.request{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.request__corazon{
+    display: flex;
+    align-items: center;
+}
+.request__descargas{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background-color: #2C4373;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.footer__logo__title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.footer__explore{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__explore__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer__explore__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+.footer__follow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__follow__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer__follow__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
