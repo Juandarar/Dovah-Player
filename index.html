@@ -11,126 +11,206 @@
 
 
     <title>Dovah Player</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="/assets/img(3).svg" alt="Dragon negro, logotipo">
-                <h1>Dovah Player</h1>
-            </div>
-            <ul>
-                <li>Inicio</li>
-                <li>Lista de canciones</li>
-                <li>Soporte</li>
-            </ul>
-            <button>Play</button>
-        </nav>
+    <header class="header">
+        <div class="header-nav__logo">
+            <img src="/assets/logo pagina.svg" alt="Dragon negro, logotipo">
+            <h1 class="header-nav__logo__title">Dovah Player</h1>
+        </div>
+        <ul class="header-nav__list">
+            <li>Inicio</li>
+            <li>Lista de canciones</li>
+            <li>Soporte</li>
+        </ul>
+        <button class="header-nav__button">Play</button>
     </header>
 
-    <main>
-        <section>
-            <img src="" alt="">
-            <h2>Nombre de la Cancion</h2>
+    <main class="main">
+        <section class="main__reproductor">
+            <img class="reproductor__img" src="https://api.institutoalfa.org/api/songs/image/c19c5f3a20aef844fdb91ed478ba2cc0.jpg" alt="">
+            <h2 class="main__reproductor__title">Paranoid</h2>
             <img src="/assets/img(4).svg" alt="Siguiente cancion, play, Anterior cancion">
         </section>
-        <section>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h3>Nombre de la Cancion</h3>
-                    <h4>Autor</h4>
-                </div>
-                <div>
-                    <hr>
-                    <div>
-                        <div>
-                            <img src="/assets/corazon.svg" alt="Corazones"><span>95</span>
-                        </div>
-                        <div>
-                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h3>Nombre de la Cancion</h3>
-                    <h4>Autor</h4>
-                </div>
-                <div>
-                    <hr>
-                    <div>
-                        <div>
-                            <img src="/assets/corazon.svg" alt="Corazones"><span>95</span>
-                        </div>
-                        <div>
-                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h3>Nombre de la Cancion</h3>
-                    <h4>Autor</h4>
-                </div>
-                <div>
-                    <hr>
-                    <div>
-                        <div>
-                            <img src="/assets/corazon.svg" alt="Corazones"><span>95</span>
-                        </div>
-                        <div>
-                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h3>Nombre de la Cancion</h3>
-                    <h4>Autor</h4>
-                </div>
-                <div>
-                    <hr>
-                    <div>
-                        <div>
-                            <img src="/assets/corazon.svg" alt="Corazones"><span>95</span>
-                        </div>
-                        <div>
-                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="main__list">
 
-        <footer>
-            <div>
-                <img src="/assets/img(4).svg" alt="Logotipo dragon">
-                <h5>Dovah Player</h5>
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/c19c5f3a20aef844fdb91ed478ba2cc0.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Paranoid</h3>
+                    <h4 class="canciones__body__autor">Black Sabbath</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h6>Explora</h6>
-                <ul>
-                    <li>Inicio</li>
-                    <li>Lista de Canciones</li>
-                    <li>Soporte</li>
-                </ul>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/549685e888634e32256174f31ff1b3ff.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Get Lucky</h3>
+                    <h4 class="canciones__body__autor">Daft Punk</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h6>Siguenos</h6>
-                <ul>
-                    <li>Instagram</li>
-                    <li>X</li>
-                </ul>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/bd32d08f019ea326ad7e7e13d0328be0.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Waterloo</h3>
+                    <h4 class="canciones__body__autor">ABBA</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/403c50cb759935f281787d0c2d5ecc04.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Blinding Lights</h3>
+                    <h4 class="canciones__body__autor">The Weeknd</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/4a9c569295d6f76f8019000aa3f59d2f.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Heart-Shaped Box</h3>
+                    <h4 class="canciones__body__autor">Nirvana</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/a4c31ac456cf00e4891f6207565ad8e4.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Not Like Us</h3>
+                    <h4 class="canciones__body__autor">Kendrick Lamar</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/d30971c302382c63f40a72b01d07acb1.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Panic</h3>
+                    <h4 class="canciones__body__autor">The Smiths</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canciones">
+                <img class="canciones__img" src="https://api.institutoalfa.org/api/songs/image/d75cedf6c57472a3a055af3296405d5e.jpg" alt="">
+                <div class="canciones__body">
+                    <h3 class="canciones__body__title">Counting Stars</h3>
+                    <h4 class="canciones__body__autor">OneRepublic</h4>
+                </div>
+                <div class="canciones__footer">
+                    <hr>
+                    <div class="request">
+                        <div class="request__corazon">
+                            <img src="/assets/corazones.svg" alt="Corazones"><span>95</span>
+                        </div>
+                        <div class="request__descargas">
+                            <img src="/assets/Descargas.svg" alt="Descargas"><span>107</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
+    
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="/assets/logo pagina.svg" alt="Logotipo dragon">
+            <h5 class="footer__logo__title">Dovah Player</h5>
+        </div>
+        <div class="footer__explore">
+            <h6 class="footer__explore__title">Explora</h6>
+            <ul class="footer__explore__list">
+                <li>Inicio</li>
+                <li>Lista de Canciones</li>
+                <li>Soporte</li>
+            </ul>
+        </div>
+        <div class="footer__follow">
+            <h6 class="footer__follow__title">Siguenos</h6>
+            <ul class="footer__follow__list">
+                <li>Instagram</li>
+                <li>X</li>
+            </ul>
+        </div>
+    </footer>
     
 </body>
 </html>
