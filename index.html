@@ -28,17 +28,21 @@
     </header>
 
     <main class="main">
-        <div class="background">
-            <section class="main__reproductor">
-                <img class="reproductor__img" src="https://api.institutoalfa.org/api/songs/image/c19c5f3a20aef844fdb91ed478ba2cc0.jpg" alt="">
-                <h2 class="main__reproductor__title">Paranoid</h2>
-                <img src="/assets/img(4).svg" alt="Siguiente cancion, play, Anterior cancion">
+        <div id="imgReproductor" class="background">
+            <section  class="main__reproductor">
+                <img id="imagen" class="reproductor__img" src="https://api.institutoalfa.org/api/songs/image/c19c5f3a20aef844fdb91ed478ba2cc0.jpg" alt="">
+                <h2 id="title" class="main__reproductor__title">Paranoid</h2>
+                <div class="barra__control">
+                    <img src="/assets/back.svg" alt="">
+                    <img id="play" src="/assets/play.svg" alt="Siguiente cancion, play, Anterior cancion">
+                    <img src="/assets/next.svg" alt="">
+                </div>
+                <audio id="audio" src="" controls autoplay></audio>      
             </section>
 
         </div>
         <section class="main__list" id="container-song">
 
-      
 
         </section>
     </main>

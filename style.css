@@ -52,7 +52,8 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 120px;
-    padding: 0px 60px 30px 0px;
+    padding: 0px 0px 30px 0px;
+    justify-content: center;
   
 
 }
@@ -70,6 +71,7 @@ hr {
     background-image: url('https://api.institutoalfa.org/api/songs/image/c19c5f3a20aef844fdb91ed478ba2cc0.jpg');
     background-size: cover;
     background-position: center;
+    justify-content: center;
     
 
 }
@@ -81,6 +83,15 @@ hr {
 .main__reproductor__title{
     font-size: 36px;
     font-weight: bold;
+}
+
+.barra__control{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.barra__control img{
+    cursor: pointer;
 }
 .main__list{
     display: flex;
